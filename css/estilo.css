@@ -22,11 +22,12 @@ body {
     align-items: center;
     box-shadow: 4px 4px 15px rgba(107, 107, 107, 0.74);
     padding: 0 10%;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
     flex: 20%;
-    /* margin-left: 10%; */
     text-align: left;
 }
 
@@ -70,7 +71,6 @@ body {
     border: none;
     background: rgb(54, 21, 98);
     color: white;
-    /* padding: 15px 30px; */
 }
 
 .dropdown{
@@ -119,6 +119,7 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .headline h2{
@@ -146,8 +147,8 @@ body {
 }
 
 .contato-botao:hover{
-    background: rgb(186, 172, 205);
-    color: rgb(44, 44, 44);
+    background: #A130A4;
+    color: rgb(255, 255, 255);
     padding: 25px;
 }
 
@@ -160,4 +161,87 @@ body {
     flex: 40%;
     margin-right: 10%;
     padding: 20px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 40px;
+    margin:0%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #A130A4;
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #A130A4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #A130A4;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(236, 230, 254); 
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.74);
+    
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: 'Aboreto', cursive;
+    color: rgb(51, 20, 96);
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+}
+
+.whats:hover{
+    padding: 40px;
 }

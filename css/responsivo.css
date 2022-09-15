@@ -27,9 +27,7 @@
     }
 
     .img-headline{
-        flex: 100%;
-        margin: 5%;
-        text-align: center;
+        display: none;
     }
 
     .card{
